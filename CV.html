@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Plantilla.css" />
+    <link rel="stylesheet" href="Formula.js" />
+    <script src="Formula.js"></script>
+  </head>
+  <body style="background-color: burlywood">
+    <section>
+      <h1>HOJA DE VIDA</h1>
+      <h2>
+        <script>
+          document.write(ingresar());
+        </script>
+      </h2>
+      <img src="" />
+    </section>
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <p>
+        <b>Correo Electrónico: </b>
+        <script>
+          document.write(correo());
+        </script>
+      </p>
+      <p>
+        <b>Telefono:</b>
+        <script>
+          document.write(telefono());
+        </script>
+      </p>
+      <p><b>Redes sosciales</b></p>
+      <a href="https://github.com/janino9212"
+        ><img src="Recursos/Git_Hub.png" class="img"
+      /></a>
+      <a href="https://www.facebook.com/julianalberto.ninoacevedo"
+        ><img src="Recursos/Facebook.png" class="img"
+      /></a>
+    </fieldset>
+    <fieldset>
+      <legend>Estudios</legend>
+      <p>
+        <script>
+            document.write(estudios());
+          </script></b>
+      </p>
+      <p>
+        <script>
+            document.write(periodo());
+          </script></b>
+      </p>
+      <p>
+        <script>
+            document.write(estudios());
+          </script></b>
+          <script>
+            document.write(periodo());
+          </script></b>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Perfil Profesional</legend>
+     <p>
+        <script>
+            document.write(perfil());
+          </script></b>
+     </p>
+    </fieldset>
+  </body>
+</html>
